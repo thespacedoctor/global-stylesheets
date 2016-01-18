@@ -3486,6 +3486,7 @@ div.wiki-content {
     position: relative;
     -webkit-font-smoothing: antialiased;
     text-rendering: optimizeLegibility;
+    color: #dc322f;
 }
 
 @media all and (min-width: 940px) {
@@ -3527,7 +3528,17 @@ a.anchor {
 .markdown-body pre,
 .markdown-body tt {
     font-family: Menlo, Monaco, Consolas, "Courier New", monospace;
-    font-size: 14px;
+    font-size: 1em;
+}
+
+.markdown-body code {
+    color: #268bd2;
+}
+
+.markdown-body pre {
+    code {
+        color: inherit;
+    }
 }
 
 #wiki-header #header-content,
@@ -3729,4 +3740,9 @@ ul.actions {
 #head #searchbar #searchbar-fauxtext #search-submit span {
   background-position: -431px 2px;
 }
+
+.toc {
+  background-color: transparent;
+}
+
 
