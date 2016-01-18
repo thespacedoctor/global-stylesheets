@@ -3685,7 +3685,9 @@ ul.actions {
 
 .markdown-body img {
     max-width: 90%;
-    vertical-align: middle;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 
