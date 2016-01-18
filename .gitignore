@@ -35,3 +35,4 @@ config.codekit
 .sass-cache
 Adding Simulated Transients to Galaxy Catalogues.html
 main.css.map
+*.html
